@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FZ">
+
+<test name="Create files">
+	<classes>
+		<class name="testNG.CreateFiles"/>
+	</classes>
+</test>
+
+<test name="Write files">
+	<classes>
+		<class name="testNG.WriteFiles">
+			<!-- <methods>
+				<exclude name="writeFilesAlt"/>
+			</methods> -->
+		</class>
+	</classes>
+</test>
+
+<test name="Test HTML">
+	<classes>
+		<class name="testNG.TestHtml"/>
+	</classes>
+</test>
+
+</suite>
