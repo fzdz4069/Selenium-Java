@@ -15,8 +15,8 @@ public class WriteFiles {
 	public WebDriver driver;
 	public String hp = "http://www.donlope.net/fz/lyrics/";
 	public String hpAlt = "http://www.donlope.net/fz/btb/";
-	public Path main = Path.of("d:\\arch\\2\\IT\\fz_html_3\\main\\");
-	public Path btb = Path.of("d:\\arch\\2\\IT\\fz_html_3\\btb\\");
+	public Path main = Path.of("d:\\temp\\fz_html_3\\main\\");
+	public Path btb = Path.of("d:\\temp\\fz_html_3\\btb\\");
 
 	@BeforeTest(alwaysRun = true)
 	public void start() throws IOException {
