@@ -17,7 +17,7 @@ import java.util.Collections;
 
 public class TestHtml {
 	public WebDriver driver;
-	public String homePage = "file:///D:/arch/2/IT/fz_html_3/main/index.html";
+	public String homePage = "file:///D:/temp/fz_html_3/main/index.html";
 	public String newTab = Keys.chord(Keys.CONTROL, Keys.ENTER);
 	public List <String> title;
 	public int size;
